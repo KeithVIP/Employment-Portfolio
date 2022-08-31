@@ -106,7 +106,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Questions
 
-If you have any questions, you may direct them to VMLujanJr using the following links:
+If you have any questions, you may direct them to Keith Yanosy using the following links:
 
 | | Contact Information |
 | --- | --- |
