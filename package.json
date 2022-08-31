@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "![MIT](https://img.shields.io/badge/License-MIT-blue) # Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeithVIP/Emplyoment-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeithVIP/Emplyoment-Portfolio/issues"
+  },
+  "homepage": "https://github.com/KeithVIP/Emplyoment-Portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
