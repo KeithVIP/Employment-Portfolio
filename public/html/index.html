@@ -6,11 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/public/css/output.css" rel="stylesheet">
-    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Audiowide&family=BhuTuka+Expanded+One&family=Cutive+Mono&family=Eagle+Lake&family=Engagement&family=Ephesis&family=Gravitas+One&family=Gwendolyn:wght@400;700&family=Josefin+Sans:wght@400;600&family=Lora:wght@400;600&family=Meddon&family=Nanum+Gothic&family=Open+Sans&family=Racing+Sans+One&family=Rammetto+One&display=swap"
+        rel="stylesheet">
+    <title>Portfolio Mockup</title>
+    <style>
+        .label_1:after {
+            content: 'Hey';
+        }
+
+        .label_1:hover:after {
+            content: 'About';
+        }
+
+        .label_2:after {
+            content: 'I am';
+        }
+
+        .label_2:hover:after {
+            content: 'Portfolio';
+        }
+
+        .label_3:after {
+            content: 'Keith';
+        }
+
+        .label_3:hover:after {
+            content: 'Resume';
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class="font-bold text-red-400"> Hello</h1>
+    <header class="flex">
+        <div class="text-c-gray font-Meddon text-[25px] font-bold pt-6 flex justify-center basis-1/4">
+            K
+        </div>
+        <nav class="font-Josefin font-bold text-[20px] flex basis-3/4 justify-around items-center">
+            <div>About</div>
+            <div>Portfolio</div>
+            <div>Resume</div>
+        </nav>
+    </header>
+    <div class="min-h-screen p-10">
+        <main class="flex flex-col items-center">
+            <div id="wrapper">
+                <div><span class="label_1"></span></div>
+                <div><span class="label_2"></span></div>
+                <div><span class="label_3"></span></div>
+            </div>
+
+
+
+
+            <h1 class="font-Aboreto text-[72px]">Keith Yanosy</h1>
+            <p class="font-Nanum text-[20px]">
+                As a self-motivated software developer, I am searching for a reliable
+                company that can provide a safe learning environment with the potential to establish my career in
+                software development.
+            </p>
+            <p class="font-Aboreto text-[20px] font-semibold">
+                available for hire
+            </p>
+
+            <div id="About">
+                <h1>About</h1>
+                This is the about me section of the website.
+            </div>
+            <div id="Portfolio">
+                <h1>Portfolio</h1>
+                This is the about me section of the website.
+            </div>
+            <div id="Resume">
+                <h1>Resume</h1>
+                This is the about me section of the website.
+            </div>
+        </main>
+    </div>
+    <footer class="bg-c-yellow flex flex-col justify-around">
+        <div class="flex justify-around">
+            <div>Email</div>
+            <div>GitHub</div>
+            <div>LinkedIn</div>
+        </div>
+        <div class="text-center">Copyright</div>
+    </footer>
 </body>
 
 </html>
